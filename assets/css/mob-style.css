@@ -1,0 +1,45 @@
+@media (max-width: 768px) {
+
+    
+    .container{width:90%;margin:0 auto;}
+    .display-flex{display:-webkit-box!important;display:flex!important;flex-direction: column;}
+
+    .circles {
+        background: rgba(0, 0, 0, 0) url(../img/boobles/bg-light.svg) no-repeat scroll top left / cover;
+    }
+    #menu-web {
+        display: none;
+    }
+    header {
+        padding-top: 0;
+    }
+    header .hero-desc {
+        order: 2;
+        margin-top: 10px;
+    }
+
+
+    #skill .programming-lag {
+        margin-right: 0;
+        text-align: center;
+    }
+
+    #career .career-boxes .career-box {
+        width: 100%;
+        margin: 0;
+    }
+
+    #partner ul li {
+        margin: 10px 2px;
+    }
+
+    #whyme .why-boxes .why-box {
+        width: 100%;
+        min-height : 100%;
+        margin-bottom: 15px;
+    }
+
+    .hireme {
+        text-align: center!important;
+    }
+}
