@@ -119,6 +119,7 @@ hr.cool {
     padding: 10px 20px;
     border-radius: 10px;
     color: #333;
+    display: block;
 }
 #menu-web ul li.active a{
     color: #7EB10A;
@@ -152,6 +153,7 @@ header .hero-desc p {
     margin-top: 59px;
 }
 header .hero-desc a{
+    display: inline-block;
     width: 125px;
     height: 39px;
     font-family: 'Roboto';
@@ -406,6 +408,7 @@ header .hero-pic img {
 }
 
 #whyme .hireme a{
+    display: inline-block;
     width: 200px;
     height: 39px;
     font-family: 'Roboto';
