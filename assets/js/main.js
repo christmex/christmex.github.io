@@ -13,6 +13,7 @@
 	new WOW().init();
 
 
+	// parallax effect
 	$(window).scroll(function(){
 
 		if ($(window).width() >= 768){	
