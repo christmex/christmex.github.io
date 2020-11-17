@@ -137,6 +137,7 @@ header .hero-desc h5{
     font-weight: 600;
     font-size: 30px;
     color: #231F20;
+    margin-bottom: 5px;
 }
 header .hero-desc span {
     font-family: 'Roboto';
