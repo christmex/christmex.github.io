@@ -8,7 +8,7 @@
     }
     section#download {
         background-image: none;
-        background: rgba(0, 0, 0, 0.61);
+        background: rgba(0, 0, 0, 0);
     }
     section#download .display-flex div {
         margin-bottom: 50px;
@@ -57,7 +57,7 @@
     }
     section#download {
         background-image: none;
-        background: rgba(0, 0, 0, 0.61);
+        background: rgba(0, 0, 0, 0);
     }
     section#download .display-flex div {
         margin-bottom: 50px;
