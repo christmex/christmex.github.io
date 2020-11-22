@@ -1,0 +1,109 @@
+
+
+/* PHONE */
+@media (max-width: 600px) {
+    
+    .display-flex {
+        display: block!important;
+    }
+    section#download {
+        background-image: none;
+        background: rgba(0, 0, 0, 0.61);
+    }
+    section#download .display-flex div {
+        margin-bottom: 50px;
+        padding: 0;
+        width: auto;
+        border-bottom: 1px solid #fff;
+        padding-bottom: 50px
+    }
+    section#download .display-flex div:nth-child(2) {
+        border-right: none;
+        border-left: none;
+        padding-left: 0;
+        padding-right: 0;
+        width: auto;
+    }
+    .container {
+        width: 80%;
+    }
+    section#contact {
+        position: absolute;
+        top: 50%;
+        margin-top: -50px;
+        right: 0;
+        background: rgba(0, 0, 0, 1);
+        border-radius:  5px;
+        padding: 10px 30px;
+        width: auto;
+        display: none;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 1);
+        z-index: 5;
+    }
+    body {
+        background-position: left;
+    }
+    section#showcase {
+        margin: 100px auto 0;
+        display: block;
+    }
+
+}
+
+/* TABLET */
+@media only screen and (min-width: 768px) and (max-width: 991px)  {
+    .display-flex {
+        display: block!important;
+    }
+    section#download {
+        background-image: none;
+        background: rgba(0, 0, 0, 0.61);
+    }
+    section#download .display-flex div {
+        margin-bottom: 50px;
+        padding: 0;
+        width: auto;
+        border-bottom: 1px solid #fff;
+        padding-bottom: 50px
+    }
+    section#download .display-flex div:nth-child(2) {
+        border-right: none;
+        border-left: none;
+        padding-left: 0;
+        padding-right: 0;
+        width: auto;
+    }
+    .container {
+        width: 80%;
+    }
+    section#contact {
+        position: absolute;
+        top: 50%;
+        margin-top: -50px;
+        right: 0;
+        background: rgba(0, 0, 0, 1);
+        border-radius:  5px;
+        padding: 10px 30px;
+        width: auto;
+        display: none;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 1);
+        z-index: 5;
+    }
+    body {
+        background-position: left;
+    }
+    section#showcase {
+        margin: 100px auto 0;
+        display: block;
+    }
+}
+
+/* LAPTOP */
+@media only screen and (min-width: 992px) and (max-width: 1200px)  {
+
+}
+
+/* COMPUTER */
+@media only screen and (min-width: 1200px){
+
+}
