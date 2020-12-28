@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Rubik Light'), local('Rubik-Light'), url(../font/rubrik/rubrik-light.woff2) format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Rubik'), local('Rubik-Regular'), url(../font/rubrik/rubrik.woff2) format('woff2');
+  }
+  
+  
+  @font-face {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Rubik Medium'), local('Rubik-Medium'), url(../font/rubrik/rubrik-medium.woff2) format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Rubik Bold'), local('Rubik-Bold'), url(../font/rubrik/rubrik-bold.woff2) format('woff2');
+   }
+  
+  @font-face {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 900;
+    src: local('Rubik Black'), local('Rubik-Black'), url(../font/rubrik/rubrik-black.woff2) format('woff2');
+  }

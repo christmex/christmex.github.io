@@ -1,0 +1,162 @@
+@import 'font.css';
+/*******************************************
+  Owner: JONATHAN CHRISTIAN
+  Name: Stylesheet;
+  version: 1
+  Website : christmex.github.io
+
+  Element Structure:
+  1. SETTINGS
+  
+************************************************/
+/*
+    1. SETTINGS
+*/
+:root {
+
+    --primary: #070709;
+
+    --yellow-1 : #FFC839;
+    --yellow-2 : #FFBC0E;
+
+
+    --white: #fff;
+
+    --nav-link-text : #aaa;
+
+    --subtext-color : #E5E5E5;
+
+
+    --device-sm: 576px;
+    --device-md: 768px;
+    --device-lg: 992px;
+    --device-xl: 1200px;
+
+}
+
+
+html {scroll-behavior: smooth;}
+body {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    background-color: var(--primary);
+    color: var(--white);
+}
+/* RESET BOOTSTRAP */
+.navbar-light .navbar-nav .nav-link {
+    color: var(--nav-link-text);
+    font-size: 16px;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link,
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: var(--yellow-1);
+}
+.navbar {
+    background-color: var(--primary);
+}
+.navbar-light .navbar-toggler-icon {
+    background-color: var(--white);
+}
+.nav-item {
+    margin:0 20px;
+}
+
+
+header .icon {
+    width: 40px;
+    height: 40px
+}
+header .icon img {
+    width: 100%;
+    height: auto
+}
+header .brand-text {
+    width: 150px;
+    height: auto
+}
+header .brand-text img {
+    width: 100%;
+    height: auto
+}
+
+
+
+/* JUMBOTRON */
+#jumbotron {
+    margin-top: 2rem;
+}
+#jumbotron .row .col:first-child p{
+    color: var(--subtext-color)
+}
+.btn-outline-yellow {
+    border: 1px solid var(--yellow-1);
+    font-weight: 500
+}
+#jumbotron h2 {
+    font-size: 50px;
+}
+
+/* PRODUCTS */
+#products {
+    margin-top: 150px;
+    text-align: center
+}
+#products .title-section{
+    margin-bottom: 50px;
+}
+#products .title-section > h3 {
+    color: var(--yellow-1);
+    font-size: 20px;
+    font-weight: 500;
+}
+#products .the-product div{
+    width: 100%;
+}
+#products .the-product div span {
+    color: var(--yellow-1);
+    font-weight: 500;
+}
+#products .the-product div .img {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+#products .the-product div img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+
+
+
+.slick-dots {
+	display: flex;
+	justify-content: center;
+	
+	margin: 0;
+	padding: 1rem 0;
+	
+	list-style-type: none;
+	
+}
+.slick-dots li {
+    margin: 0 0.25rem;
+}
+
+.slick-dots button {
+    display: block;
+    width: 1rem;
+    height: 1rem;
+    padding: 0;
+    border: none;
+    border-radius: 100%;
+    background-color: var(--subtext-color);
+    text-indent: -9999px;
+}
+
+.slick-dots li.slick-active button {
+    background-color: var(--yellow-1);
+}

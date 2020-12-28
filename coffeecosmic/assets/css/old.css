@@ -1,0 +1,155 @@
+@import 'font.css';
+/*******************************************
+  Owner: JONATHAN CHRISTIAN
+  Name: Stylesheet;
+  version: 1
+  Website : christmex.github.io
+
+  Element Structure:
+  1. SETTINGS
+  
+************************************************/
+/*
+    1. SETTINGS
+*/
+:root {
+
+    --primary: #070709;
+
+    --yellow-1 : #FFC839;
+    --yellow-2 : #FFBC0E;
+
+
+    --white: #fff;
+
+    --nav-link-text : #aaa;
+
+    --subtext-color : #E5E5E5;
+
+
+    --device-sm: 576px;
+    --device-md: 768px;
+    --device-lg: 992px;
+    --device-xl: 1200px;
+
+}
+
+html {scroll-behavior: smooth;}
+body {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    background-color: var(--primary);
+    color: var(--white);
+}
+/* RESET BOOTSTRAP */
+.navbar-light .navbar-nav .nav-link {
+    color: var(--nav-link-text);
+    font-size: 16px;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link,
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: var(--yellow-1);
+}
+.navbar {
+    background-color: var(--primary);
+}
+.navbar-light .navbar-toggler-icon {
+    background-color: var(--white);
+}
+
+/* Jumbotron */
+section#jumbotron {
+    width: 100%;
+    height: 450px;   
+    position: relative;
+}
+section#jumbotron .hero{
+    position: absolute;
+    right: 0;
+    width: auto;
+    height: auto;
+    background-color: var(--nav-link-text);
+    text-align: right;
+}
+.parallax-top {
+    right: 0;
+    top: -25px;
+    z-index: 1;
+    width: 60%;
+    height: 50px;
+    overflow: hidden;
+    position: absolute;
+}
+.parallax-bottom {
+    bottom: -50px;
+    left: -80px;
+    z-index: -1;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    position: absolute;
+}
+.the-hero {
+    width: 100%;
+    height: 300px;
+    overflow: hidden
+}
+@media (max-width: 576px){
+    section#jumbotron {
+        width: 100%;
+        height: auto;   
+        position: relative;
+    }
+    section#jumbotron .hero{
+        position: static;
+        width: auto;
+        height: auto;
+        background-color: red;
+        text-align: right;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Jumbotron */
+.jumbotron .row .col:first-child p{
+    color: var(--subtext-color)
+}
+.btn-outline-yellow {
+    border: 1px solid var(--yellow-1);
+}
+.title-section {
+    color: var(--yellow-1);
+    font-size: 20px;
+    font-weight: 500;
+}
+.title-section span.style-1:after{
+    content: "";
+    background: var(--yellow-1);
+    height: 2px;
+    width: 50px;
+    margin-top: 12px;
+    margin-left: 15px;
+    position: absolute;
+}
+
+
+
+section#products {
+    margin-top: 50px;
+}
